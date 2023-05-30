@@ -1,75 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jual Beli Film</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-    h1 {
-      text-align: center;
-    }
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-    .film-list {
-      list-style-type: none;
-      padding: 0;
-    }
-    .film-item {
-      display: flex;
-      align-items: center;
-      margin-bottom: 20px;
-    }
-    .film-item img {
-      width: 150px;
-      margin-right: 20px;
-    }
-    .film-item h2 {
-      margin: 0;
-    }
-    .film-item p {
-      margin-top: 5px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Jual Beli Film</h1>
-    <ul class="film-list">
-      <li class="film-item">
-        <img src="film1.jpeg" alt="Film 1">
-        <div>
-          <h2>Film 1</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p>Price: $10</p>
-          <button>Add to Cart</button>
+    <header>
+        
+        <h1>Jual Beli Film</h1>
+        
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Film Baru</a>
+        <a href="#">Film Populer</a>
+        <a href="#">Kategori</a>
+        <a href="#">Keranjang</a>
+        <a href="akun.html">Akun</a>
+    </nav>
+
+    <main>
+        <div class="card">
+            <img src="film1.jpeg" alt="Film 1">
+            <h2>Judul Film 1</h2>
+            <p>Tahun Rili: 2021</p>     
+            <p>Genre: Aksi</p>
+            <p>Rating: 8.5</p>
+            <p>Harga: Rp 50.000,-</p>
+            <button>Beli Sekarang</button>
         </div>
-      </li>
-      <li class="film-item">
-        <img src="film2.jpg" alt="Film 2">
-        <div>
-          <h2>Film 2</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p>Price: $15</p>
-          <button>Add to Cart</button>
+        
+        <div class="card">
+            <img src="film2.jpg" alt="Film 2">
+            <h2>Judul Film 2</h2>
+            <p>Tahun Rilis: 2020</p>
+             <p>Genre: Komedi</p>
+            <p>Rating: 7.2</p>
+            <p>Harga: Rp 35.000,-</p>
+            <button>Beli Sekarang</button>
+
         </div>
-      </li>
-      <li class="film-item">
-        <img src="film3.jpg" alt="Film 3">
-        <div>
-          <h2>Film 3</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <p>Price: $12</p>
-          <button>Add to Cart</button>
+
+        <div class="card">
+            <img src="film3.jpg" alt="Film 3">
+            <h2>Judul Film 3</h2>
+            <p>Tahun Rilis: 2019</p>
+            <p>Genre: Drama</p>
+            <p>Rating: 9.0</p>
+            <p>Harga: Rp 60.000,-</p>
+            <button>Beli Sekarang</button>
         </div>
-      </li>
-    </ul>
-  </div>
+    </main>
+    
+
+    <footer>
+        <p>&copy; 2023 Jual Beli Film. All rights reserved.</p>
+    </footer>
 </body>
 </html>
